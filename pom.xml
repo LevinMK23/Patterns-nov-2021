@@ -11,6 +11,15 @@
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
+        <lombol.version>1.18.20</lombol.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombol.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

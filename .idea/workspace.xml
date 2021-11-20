@@ -5,11 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac44d054-f42f-4b54-9bab-a7b0fa626ffc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/builder/Dto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/builder/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/builder/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/BadWordFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/ClientProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/GoodWordFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/WordFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/button/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/button/ButtonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/button/MacOsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/button/MacOsButtonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/button/UiDesigner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/button/WindowsButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/button/WindowsButtonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/prototype/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/singleton/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/singleton/Network.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/singleton/Test.java" afterDir="false" />
       <change afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/cs-placement-tms/src/main/java/ru/yandex/cs/placement/tms/notification/NotifyNewOpinionsExecutor.java" afterDir="false" />
       <change afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-core/src/java/ru/yandex/vendor/notification/VendorNotificationUtils.java" afterDir="false" />
       <change afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-core/src/java/ru/yandex/vendor/opinions/notification/dao/OpinionsNotificationDao.java" afterDir="false" />
       <change afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-core/src/java/ru/yandex/vendor/opinions/notification/dao/OpinionsNotificationYtDao.java" afterDir="false" />
       <change afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-core/src/java/ru/yandex/vendor/opinions/notification/model/OpinionsNotificationModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-core/src/java/ru/yandex/vendor/questions/dao/QuestionsNotificationDao.java" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-core/src/java/ru/yandex/vendor/questions/dao/QuestionsNotificationDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +46,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -59,6 +81,65 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="ClientProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.patterns.creators.factory.ClientProcessor" />
+      <module name="Patterns-nov-2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.patterns.creators.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.patterns.creators.singleton.Test" />
+      <module name="Patterns-nov-2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.patterns.creators.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UiDesigner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.patterns.creators.factory.button.UiDesigner" />
+      <module name="Patterns-nov-2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.patterns.creators.factory.button.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.UiDesigner" />
+        <item itemvalue="Application.ClientProcessor" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
@@ -72,10 +153,23 @@
       <updated>1637084988920</updated>
       <workItem from="1637084990349" duration="3577000" />
       <workItem from="1637342012302" duration="60000" />
+      <workItem from="1637342079125" duration="6349000" />
     </task>
+    <task id="LOCAL-00001" summary="Lesson 3.">
+      <created>1637342155834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637342155834</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lesson 3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 3." />
   </component>
 </project>
