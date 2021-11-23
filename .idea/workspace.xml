@@ -5,33 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac44d054-f42f-4b54-9bab-a7b0fa626ffc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/builder/Dto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/builder/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/builder/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/BadWordFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/ClientProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/GoodWordFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/WordFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/button/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/button/ButtonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/button/MacOsButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/button/MacOsButtonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/button/UiDesigner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/button/WindowsButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/factory/button/WindowsButtonFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/prototype/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/singleton/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/singleton/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/creators/singleton/Test.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/cs-placement-tms/src/main/java/ru/yandex/cs/placement/tms/notification/NotifyNewOpinionsExecutor.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-core/src/java/ru/yandex/vendor/notification/VendorNotificationUtils.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-core/src/java/ru/yandex/vendor/opinions/notification/dao/OpinionsNotificationDao.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-core/src/java/ru/yandex/vendor/opinions/notification/dao/OpinionsNotificationYtDao.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-core/src/java/ru/yandex/vendor/opinions/notification/model/OpinionsNotificationModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/adapter/BigInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/adapter/BigInterfaceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/adapter/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/adapter/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/adapter/StubBigInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/adapter/X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/adapter/XService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/adapter/Y.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/adapter/YServiceAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/bridge/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/bridge/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/bridge/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/bridge/TvDevice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/bridge/TvLG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/composit/BinaryExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/composit/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/composit/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/composit/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/composit/Multiply.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/composit/StrCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/composit/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/composit/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/composit/UnaryExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/decorator/Datasource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/decorator/DatasourceReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/decorator/DatasourceReaderDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/decorator/FileDatasource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/decorator/SqlDatasource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/facade/ApiFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/proxy/Caller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/proxy/ConsoleCaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/proxy/ConsoleCallerProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/proxy/ConsoleCallerProxy2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/proxy/transaction/DbService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/proxy/transaction/TransactionTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geekbrains/patterns/structures/proxy/transaction/TransactionalDbServiceProxy.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/java/ru/yandex/market/adv/incut/controllers/TestController.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/java/ru/yandex/market/adv/incut/quartz/task/TmsTasks.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/postgres_sql_for_quartz_tms.sql" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/quartz-tms-changelog.xml" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/java/ru/yandex/market/adv/incut/postgres/DatabaseTest.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/java/ru/yandex/market/adv/incut/quartz/TmsTaskTest.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/ya.make.test.modules/postgres.test.ya.make" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/ya.make.test.modules/quartz.test.ya.make" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/ya.make.test.modules/recipe.postgres.test.ya.make" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/ya.make.test.modules/test.modules.ya.make" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/ya.make.modules/modules.ya.make" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/ya.make.modules/postgres.ya.make" afterDir="false" />
+      <change afterPath="$USER_HOME$/arcadia/market/adv/incut/ya.make.modules/quartz.ya.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-core/src/java/ru/yandex/vendor/questions/dao/QuestionsNotificationDao.java" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/vendors/cs-billing/vendor-core/src/java/ru/yandex/vendor/questions/dao/QuestionsNotificationDao.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/service.yaml" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/service.yaml" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/properties.d/00_application.properties" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/properties.d/00_application.properties" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/db-changelog.xml" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/main/resources/liquibase/db-changelog.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/src/test/ya.make" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/src/test/ya.make" afterDir="false" />
+      <change beforePath="$USER_HOME$/arcadia/market/adv/incut/ya.make" beforeDir="false" afterPath="$USER_HOME$/arcadia/market/adv/incut/ya.make" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +73,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -81,13 +110,31 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.geekbrains.patterns.structures.decorator" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="ClientProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geekbrains.patterns.creators.factory.ClientProcessor" />
       <module name="Patterns-nov-2021" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.geekbrains.patterns.creators.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geekbrains.patterns.structures.composit.Test" />
+      <module name="Patterns-nov-2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geekbrains.patterns.structures.composit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,19 +168,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.UiDesigner" />
         <item itemvalue="Application.ClientProcessor" />
@@ -153,7 +203,8 @@
       <updated>1637084988920</updated>
       <workItem from="1637084990349" duration="3577000" />
       <workItem from="1637342012302" duration="60000" />
-      <workItem from="1637342079125" duration="6349000" />
+      <workItem from="1637342079125" duration="6386000" />
+      <workItem from="1637687378703" duration="5936000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 3.">
       <created>1637342155834</created>
@@ -162,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637342155834</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lesson 3.">
+      <created>1637429067319</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637429067319</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
