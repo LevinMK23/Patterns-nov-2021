@@ -34,4 +34,9 @@ public abstract class BinaryExpression implements Expression {
     public Expression getRight() {
         return right;
     }
+
+    @Override
+    public String toString() {
+        return toStr();
+    }
 }

@@ -1,6 +1,7 @@
 package com.geekbrains.patterns.structures.composit;
 
 public class Test {
+
     public static void main(String[] args) {
 
         Expression expression = new Multiply(
